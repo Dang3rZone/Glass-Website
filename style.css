@@ -67,7 +67,25 @@ main {
 .link {
   display: flex;
   margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+.link h2 {
+  padding: 0rem 2rem;
 }
 .games {
   flex: 2;
+}
+
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.pro img {
+  position: absolute;
+  top: -10%;
 }
